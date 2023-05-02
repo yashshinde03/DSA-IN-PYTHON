@@ -1,4 +1,4 @@
-array = [10, 3, 7, 5]
+arr = [10, 3, 7, 5]
 # print(array)
 # Random Indexing
 # print(array[2])
@@ -9,16 +9,16 @@ array = [10, 3, 7, 5]
 # to get last 2 items
 # print(array[:-1])
 # Linear Search
-max = array[0]
+max = arr[0]
 
-for num in array:
+for num in arr:
     if num > max:
         max = num
 
 print(max)
-min = array[0]
+min = arr[0]
 
-for num in array:
+for num in arr:
     if num < max:
         min = num
 
